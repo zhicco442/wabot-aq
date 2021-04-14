@@ -3,4 +3,4 @@ pkg install ffmpeg -y
 pkg install imagemagick -y
 npm install
 
-echo: sukses ngab jangan lupa follow instagram:zhicco4421
+echo : sukses ngab jangan lupa follow instagram:zhicco4421
