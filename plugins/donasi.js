@@ -18,8 +18,6 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ╠════════════════════
 ║ _*POWERED BY ${Zhicco BOT}*_
 ╚════════════════════`
-}
-
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['info']
