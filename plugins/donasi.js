@@ -6,10 +6,10 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ║ *DONASI UNTUK ${*MR.CHAINNERBOT}
 ╠════════════════════
 ║╭──❉ *DONASI BOS* ❉─────
-║│➸ *OVO*:
-║│➸ *DANA*: _0882-8982-4963_
-║│➸ *PULSA*: _0882-8982-4963_
-║│➸ *GOPAY*: _0882-8982-4963_
+║│➸ *OVO*:   _0812-1281-4187_
+║│➸ *DANA*:  _0812-1281-4187_
+║│➸ *PULSA*: _0812-1281-4187_
+║│➸ *GOPAY*: _0812-1281-4187_
 ║╰──────────────────
 ╠════════════════════
 ║         ${ZHICCO BOT}
@@ -23,5 +23,4 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
-
 module.exports = handler
