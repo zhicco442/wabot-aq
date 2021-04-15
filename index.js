@@ -14,6 +14,14 @@ CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
   align: 'center',
   gradient: ['red', 'magenta']
 })
+bot.distube = new DisTube(bot, { searchSongs: false, emitNewSongOnly: true });
+bot.distube
+    .on("playSong", (message, queue, song) => message.channel.send(
+        `Playing \`${song.name}\` - \`${song.formattedDuration}\`\nRequested by: ${song.user}`
+	))
+	.on("addSong", (message, queue, song) => message.channel.send(
+        `Added ${song.name} - \`${song.formattedDuration}\` to the queue by ${song.user}`
+    ))
 
 /**
  * Start a js file
