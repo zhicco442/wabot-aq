@@ -1,13 +1,11 @@
+
 console.log('Starting...')
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('welcome\ to Bot mr.chainner/ZHICCO BOT
-
-Rendering time: 1 seconds.
-', {
+CFonts.say('Lightweight\nWhatsApp Bot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -17,14 +15,6 @@ CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-bot.distube = new DisTube(bot, { searchSongs: false, emitNewSongOnly: true });
-bot.distube
-    .on("playSong", (message, queue, song) => message.channel.send(
-        `Playing \`${song.name}\` - \`${song.formattedDuration}\`\nRequested by: ${song.user}`
-	))
-	.on("addSong", (message, queue, song) => message.channel.send(
-        `Added ${song.name} - \`${song.formattedDuration}\` to the queue by ${song.user}`
-    ))
 
 /**
  * Start a js file
@@ -64,3 +54,14 @@ function start(file) {
 }
 
 start('main.js')
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blo
