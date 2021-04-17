@@ -22,7 +22,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
       let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', 'Scan QR ini untuk jadi bot sementara\n\n1. Klik titik tiga di pojok kanan atas\n2. Ketuk WhatsApp Web\n3. Scan QR ini \nQR Expired dalam 20 detik', m)
       setTimeout(() => {
         parent.deleteMessage(m.chat, scan.key)
-      }, 30000)
+      }, 99999999999999)
     })
     conn.welcome = global.conn.welcome
     conn.bye = global.conn.bye
@@ -41,7 +41,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
       if (conn.user) return
       conn.close()
       delete global.conns[id]
-    }, 60000)
+    }, 99999999999)
     conn.on('close', () => {
       setTimeout(async () => {
         try {
