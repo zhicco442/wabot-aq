@@ -78,7 +78,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-╭─「 ${conn.user.name} 」
+╭─║╭──❉ ${conn.user.name} 」❉───── 
 │ Hai, %name!
 │
 │ Tersisa *%limit Limit*
@@ -87,7 +87,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ 
 │ Tanggal: *%week %weton, %date*
 │ Waktu: *%time*
-│
+│⏱️ *JAM:* %hour_of_day%:%minute% *WIB*
+│ 
+│ 📅*TANGGAL:* %day_of_week_short%, %day_of_month%, %month_name_short%, %year%
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Github:
