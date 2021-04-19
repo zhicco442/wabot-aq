@@ -86,9 +86,6 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ %totalexp XP in Total
 │ Tanggal: *%week %weton, %date*
 │ Waktu: *%time*
-│ JAM:%hour_of_day%:%minute% *WIB*
-│bulan:%day_of_month%, %month_name_short% 
-│tahun:%year%
 │ Github:
 │ %github
 ╰────
