@@ -84,8 +84,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ Tersisa *%limit Limit*
 │ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
-│ ⏱️ *JAM:* %hour_of_day%:%minute% *WIB*
-│ 📅 *TANGGAL:* %day_of_week_short%:%day_of_month%:%month_name_short%:%year%
+│ *JAM:* %hour_of_day%:%minute% *WIB*
+│ *TANGGAL:* %day_of_week_short%:%day_of_month%:%month_name_short%:%year%
 │ Tanggal: *%week %weton, %date*
 │ Waktu: *%time*
 │⏱️ *JAM:* %hour_of_day%:%minute% *WIB*
