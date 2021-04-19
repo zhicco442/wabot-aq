@@ -81,12 +81,14 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╭─║╭──❉ ${conn.user.name} 」❉───── 
 │ Hai, %name!
 │
-│ Tersisa *%limit Limit*
+║Tersisa *%limit Limit*
 │ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
 │ Tanggal: *%week %weton, %date*
 │ Waktu: *%time*
 │ JAM:%hour_of_day%:%minute% *WIB*
+│bulan:%day_of_month%, %month_name_short% 
+│tahun:%year%
 │ Github:
 │ %github
 ╰────
