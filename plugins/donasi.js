@@ -19,8 +19,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ╠════════════════════
 ║ _*POWERED BY ${ownerName}*_
 ╚════════════════════`
-}
-
+.trim()) // terima kasih
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
