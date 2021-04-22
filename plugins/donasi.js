@@ -1,6 +1,4 @@
-cons tag:donasi
-const donasi = (pushname, prefix, botName, ownerName) => { 
-	return `Hallo, ${pushname} 👋
+let handler = async m => m.reply(`
 Mau donasi ya kak ✨
  اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ
 _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_
@@ -8,10 +6,10 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ║ *DONASI UNTUK ${botName}*
 ╠════════════════════
 ║╭──❉ *DONASI BOS* ❉─────
-║│➸ *OVO*: _0855-5924-0360_
-║│➸ *DANA*: _0855-5924-0360_
-║│➸ *PULSA*: _0812-1444-1027_
-║│➸ *GOPAY*: _0855-5924-0360_
+║│➸ *OVO*:  _0812-1281-4187_
+║│➸ *DANA*: _0812-1281-4187_
+║│➸ *PULSA*: _0812-1281-4187_
+║│➸ *GOPAY*: _0812-1281-4187_
 ║╰──────────────────
 ╠════════════════════
 ║         ${botName}
@@ -23,4 +21,8 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ╚════════════════════`
 }
 
-exports.donasi = donasi
+handler.help = ['donasi']
+handler.tags = ['info']
+handler.command = /^dona(te|si)$/i
+
+module.exports = handler
