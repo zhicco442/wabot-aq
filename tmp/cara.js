@@ -39,7 +39,7 @@ Gacha nomor yang ada di database / yang menggunakan bot
          ────────────────
 Note : Sisanya gunain otak kalian aja cape w jelasin :)
          ────────────────
-🔰 -----[ *TUMTOR BY Hanan-Algifri* ]----- 🔰
+🔰 -----[ *TUTOR BY MR.CHAINNER-BOT* ]----- 🔰
 `
 }
 
