@@ -1,3 +1,4 @@
+cons tag:donasi
 const donasi = (pushname, prefix, botName, ownerName) => { 
 	return `Hallo, ${pushname} 👋
 Mau donasi ya kak ✨
