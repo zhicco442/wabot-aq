@@ -66,6 +66,6 @@
 
 #### Author / Creator : [`Zhicco442`](https://GitHub.com/zhicco442)
 
-#### Youtube : [`zhicco442](https://youtube.com/channel/UCSUW_E9wjcXHYSfVmfTpCpw)
+#### Youtube : [`zhicco442`](https://youtube.com/channel/UCSUW_E9wjcXHYSfVmfTpCpw)
 
-#### instagram : ['zhicco442](https://instagram.com/zhicco4421)
+#### instagram : ['zhicco442`](https://instagram.com/zhicco4421)
