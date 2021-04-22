@@ -68,4 +68,6 @@
 
 #### Youtube : [`zhicco442`](https://youtube.com/channel/UCSUW_E9wjcXHYSfVmfTpCpw)
 
-#### instagram : ['zhicco442`](https://instagram.com/zhicco4421)
+#### instagram : [`zhicco442`](https://instagram.com/zhicco4421)
+
+#### whatsapp : [`zhicco`](https://wa.me/+6281212814187)
